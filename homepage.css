@@ -1,0 +1,528 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap') */
+
+}
+
+body{
+    width: 100wh;
+   font-family: "Poppins", sans-serif;;
+}
+.atlsImg{
+  height: 2.5rem;
+}
+.nav_Flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgb(240, 244, 244);
+}
+.nav_flex_right{
+    display: flex;
+    margin-left: 32rem;
+    width: 10rem;
+}
+
+.flex_products{
+    margin-right: 37rem;
+    display: flex;
+    /* border-radius: 1rem; */
+}
+.horizon{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    width: 0.1rem;
+    height: 1.6rem;
+    background-color: rgb(231, 228, 228);
+}
+.custom-dropdown{
+    display: flex;
+    margin-left: 5px;
+
+}
+.custom-dropdown select{
+    border: none;
+    background-color:rgb(240, 244, 244) ;
+}
+.fa-magnifying-glass{
+    margin-right: 2rem;
+    margin-top: 0.9rem;
+    margin-left: 0.8rem;
+    margin-top: 1rem;
+    color: gray;
+    cursor: pointer;
+}
+
+.sign{
+    /* padding-right: 1rem; */
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: #0052CC;
+    margin-top: 1.3rem;
+    text-align: center;
+    /* margin-top: ; */
+}
+
+select:focus {
+     outline: none;
+     border-color: transparent;
+
+ }
+
+
+/* +++++++++++++++++++++++++++++++++++ second navbar ++++++++++++++++++++++++++++++++++ */
+ .navbar {
+     display: flex;
+     font-family: "Charlie Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+     height: 4rem;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+     margin-bottom: 1rem;
+ }
+
+ .nav-left {
+     display: flex;
+     margin-left: 2rem;
+ }
+
+ #logo {
+     height: 2rem;
+     width: 2rem;
+     margin-top: 1rem;
+     font-weight: 500;
+ }
+
+ .head {
+     font-size: 1.5rem;
+     margin-top: 0.5rem;
+     padding: 0.5rem;
+ }
+.products_click{
+    cursor: pointer;
+    width: 6rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+.products_click:hover{
+    border-radius: 5px;
+    background-color: #DFE1E5
+}
+.products_click div{
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+}
+ .nav-item {
+     font-size: 1rem;
+     display: flex;
+     justify-content: space-between;
+     gap: 1rem;
+     padding: 1rem;
+     /* margin-right: 19rem; */
+     /* margin-left: 2.6rem; */
+ }
+
+ .nav-links {
+     color:#0052CC;
+     margin-top: 0.5rem;
+ }
+
+ .nav-links:hover {
+     color: #0052CC;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ li {
+     list-style: none;
+ }
+
+ #btn {
+     height: 2rem;
+     font-size: 1rem;
+     border-radius: 0.3rem;
+     width: 7rem;
+     margin-top: 1rem;
+     margin-left: 30rem;
+     font-weight: bold;
+     color:#0052CC;
+     background: white;
+     cursor: pointer;
+     border: 1px solid #0052CC;
+ }
+
+ #btn:hover {
+     background: rgb(241, 238, 238);
+ }
+
+
+
+ /* HEding body */
+
+.body_heading{
+    width:30rem;
+    margin-left: 26rem;
+    margin-top: 3rem;
+}
+.main_body{
+    /* background-color:rgb(242, 240, 240) ; */
+    background-color: rgb(240, 244, 244);
+    /* height: 20rem; */
+}
+.para1_heading{
+    margin-left: 16rem;
+    padding-block: 2rem;
+}
+.button_get{
+    background-color: #0052CC ;
+    border: none;
+    padding: 0.6rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    margin-left: 36rem;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+}
+.flex_images{
+    width: 77rem;
+    margin-left: 1rem;
+}
+
+/*=================== whiteee body ======================================= */
+.white_body{
+    background-color: #FFFFFF;
+}
+.white_body h1{
+    text-align: center ;
+    margin-top: 3rem;
+}
+.hori{
+    height: 2rem;
+    width: 0.2rem;
+    /* background-color: ;*/
+    background-color: rgb(195, 197, 197);
+}
+/* .flex_hori{
+    display: flex;
+} */
+.current{
+    width: 1.6rem;
+    height: 2rem;
+    margin-right: 1rem;
+
+}
+.flex_content{
+    display: flex;
+    font-size: 1.3rem;
+}
+
+.main_horizontal_line{
+    margin-left: 15rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+    display: flex;
+    gap:1rem
+}
+.padding_btm{
+    padding-bottom: 5rem;
+}
+
+
+/* =====================================Blue body================================================= */
+
+.blue_body{
+    background-color: #1868DB
+
+}
+.star{
+    margin-block: 3rem;
+    margin-left: 35rem;
+    width: 8rem;
+    height: 5rem;
+}
+.blue_body h1{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.Explore{
+    background-color: #1868DB;
+    color: #FFFFFF;
+    border:1px solid #FFFFFF;
+    text-align: center;
+    margin-left: 30rem;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.3rem;
+    margin-bottom: 2rem;
+}
+.sunrise{
+    width: 78%;
+    margin-left: 8rem;
+    margin-bottom: 5rem;
+}
+.white_body_2{
+    background-color: #FFFFFF;
+    /* margin: 3rem; */
+}
+.white_body_2 h1{
+    text-align: center;
+    margin: 4rem;
+}
+.white_body_2 p{
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+.mar_p{
+    margin-bottom: 3rem;
+}
+.image_todo{
+    width: 50%;
+    margin-left: 18rem;
+}
+.plan{
+    margin: 1rem !important;
+}
+.para_margin{
+    margin: 0.4rem !important; 
+    font-size: 1rem !important;
+    line-height: 1rem !important;
+    margin-top: 0rem !important;
+}
+.explore{
+    color: #0052CC;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+.web{
+    width: 50%;
+    margin-left: 18rem;
+
+}
+.build{
+    width: 100%;
+}
+.Meets_teams h1{
+    text-align: center;
+    /* margin-bottom: 2rem; */
+}
+.Meets_teams p{
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+.btn_integrations{
+    font-size: 1.3rem;
+    padding: 0.8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 2rem;
+    background-color:#FFFFFF;
+    margin-left: 32rem;
+    margin-block: 2rem;
+}
+.btn_integrations:hover{
+    cursor: pointer;
+}
+.mtetw_section{
+    width: 5rem;
+    height: 5rem;
+}
+
+.meets{
+    background-color: #F4F5F7;
+}
+.flex_meet , .flex_meet2{
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 2rem; */
+}
+.meet_padding{
+    padding: 3rem;
+}
+.last{
+    margin-bottom: 1.5rem;
+}
+
+/*=================================================== Black bg ===========================================*/
+
+.black_bg{
+    background-color: #000000;
+    height: 40rem;
+}
+.black_bg h1{
+    /* background-color: #000000; */
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: bolder;
+    color: white;
+    padding-top: 6rem;
+}
+.black_bg p{
+    text-align: center;
+    color: rgb(223, 222, 222);
+    padding-block: 1.7rem;
+}
+.customer{
+    color: #1868DB;
+    text-align: center;
+
+}
+.customer:hover{
+    cursor: pointer;
+}
+
+.man_box{
+    display: flex;   
+    background-color: #F4F5F7;
+    height: 15rem;
+    margin-left: 14rem;
+    width: 60%;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    margin-top: 5rem;
+    /* padding-bottom: 5rem; */
+    /* margin-block: 5rem; */
+}
+.image_Man{
+    height: 13rem;
+}
+
+.before{
+    color:black !important;
+    font-size: 1.3rem;
+    margin-block: 0.8rem;
+    /* margin-inline: 1rem; */
+}
+.Joe{
+    border-top: 1px solid black;
+    width: 8rem;
+    margin-left: 1rem;
+}
+.blue_body2{
+    background-color: #1868DB;
+}
+.blue_body2{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.hand_img{
+    height: 28rem;
+}
+.blue_body2 h2{
+    font-size: 2.3rem;
+    color: #FFFFFF;
+}
+.heading{
+    padding: 8rem;
+}
+.jira{
+    background-color: #FFC400;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 1px dotted #FFC400;
+    border-radius: 3px;
+    margin-top: 4rem;
+}
+.jira:hover{
+    cursor: pointer;
+}
+/* ====================footer======================= */
+
+
+.atlassian{
+    width: 9rem;
+    margin-bottom: 1rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F4F5F7;
+    padding-top: 3rem;
+}
+footer{
+    border-top: 1px solid rgb(130, 129, 129);
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #F4F5F7;
+    font-size: 0.8rem;
+    /* color: rgb(149, 147, 147); */
+    color: rgb(71, 69, 69);
+}
+.footer h5{
+    color: rgb(71, 69, 69);
+    margin-bottom: 1rem;
+}
+.footer p{
+    font-size: 0.85rem;
+    color: rgb(91, 91, 91);
+    line-height: 1.5rem;
+
+}
+.footer p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.blue1{
+    color: #1868DB !important;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  
+
+}
+.blue1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.fa-globe{
+    font-size: 1rem;
+}
+.flex_footer{
+    display: flex;
+    gap:0.8rem;
+    margin-left: 4rem;
+}
+.flex_footer p{
+    /* cursor: pointer; */
+    font-size: 0.87rem;
+}
+
+.flex_footer p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#Copyright {
+    text-decoration: none !important;
+}
+.image_icons{
+    display: flex;
+    gap:0.3rem;
+    margin-right: 5rem;
+}
+.icons{
+    height: 2rem !important;
+}
+.click-page {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black background */
+    z-index: 1000;
+    /* Ensure the modal appears above other content */
+    /* Add additional styling for the modal content if needed */
+}
