@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F4F5F7;
+}
+.hover_basis {
+    display: flex;
+    height: 89vh;
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.left{
+    /* background-color: aquamarine; */
+    /* display: flex; */
+    flex-basis: 73%;
+    background-color: #F4F5F7 !important;
+}
+
+.left_margin{
+    margin-left: 2.5rem;
+
+}
+.left_margin h5{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.flex_icon_content{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.left_margin p{
+    /* margin-left: 5rem; */
+    line-height: 1.4rem;
+}
+
+.img_main{
+    /* display: flex;
+     */
+     height: 3.9rem;
+}
+.mar_l{
+    margin-left: 1rem;
+    margin-top: 0.4rem
+}
+.poin{
+    cursor: pointer;
+}
+.mar_l a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.small {
+    font-size: 0.8rem;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-right:13rem;
+}
+.trello{
+    padding-left: 4rem;
+}
+.blue4{
+    color: #1868DB ;
+}
+.left_margin1{
+    margin-block: 2rem;
+    margin-left: 2.5rem;
+    width:55rem;
+
+}
+.market{
+    font-size: 1rem;
+}
+/* right */
+
+#right {
+    background-color: #F4F5F7 !important;
+    /* display: flex; */
+    flex-basis: 27%;
+}
+.right_margin {
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+#right img{
+    height: 3.8rem;
+}
+.main_compass_flex{
+    display: flex;
+    margin-top: 1rem;
+}
+.main_compass_flex p{
+    margin-left: 1rem;
+    line-height: 1.5rem;
+}
+.what{
+    font-size: 0.8rem;
+}
+.Developer{
+    font-size: 0.8rem;
+}
+.bottom_mar{
+    margin-bottom: 4rem;
+}
+.view_color{
+    color: #1868DB;
+    margin-bottom: 4rem;
+
+}
+.you{
+    font-size: 0.8rem;
+}
+.book_flex{
+    display: flex;
+    margin-top: 1rem;
+    gap:0.4rem
+}
+.book_flex p{
+    margin-top: 0.7rem;
+}
+.book_img{
+    height: 2rem !important;
+}
