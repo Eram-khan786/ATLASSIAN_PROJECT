@@ -8,15 +8,15 @@ body{
 }
 .hover_basis {
     display: flex;
-    height: 89vh;
-    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.1);
+    height: 84vh;
+    box-shadow: 0px 1px 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 .left{
     /* background-color: aquamarine; */
     /* display: flex; */
     flex-basis: 73%;
-    background-color: #F4F5F7 !important;
+    background-color: white !important;
 }
 
 .left_margin{
